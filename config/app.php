@@ -82,7 +82,7 @@ return [
     |
      */
 
-    'timezone' => env('APP_TIMEZONE', 'Asia/Kolkata'),
+    'timezone' => env('APP_TIMEZONE', 'Europe/Amsterdam'),
 
     /*
     |--------------------------------------------------------------------------
@@ -112,6 +112,7 @@ return [
         'en'    => 'English',
         'es'    => 'Español',
         'fa'    => 'Persian',
+        'nl'    => 'Dutch',
         'pt_BR' => 'Portuguese',
         'tr'    => 'Türkçe',
         'vi'    => 'Vietnamese',
