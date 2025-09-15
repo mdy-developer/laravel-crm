@@ -9,6 +9,20 @@ use Illuminate\Http\Request;
 class Locale
 {
     /**
+     * The application instance.
+     *
+     * @var \Illuminate\Foundation\Application
+     */
+    protected Application $app;
+
+    /**
+     * The request instance.
+     *
+     * @var \Illuminate\Http\Request
+     */
+    protected Request $request;
+
+    /**
      * The middleware instance.
      *
      * @return void
@@ -18,7 +32,6 @@ class Locale
         Request $request
     ) {
         $this->app = $app;
-
         $this->request = $request;
     }
 
