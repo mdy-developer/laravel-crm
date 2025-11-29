@@ -1673,11 +1673,15 @@ return [
                 'delete'        => 'حذف',
             ],
         ],
+
         'create-success'      => 'تم إرسال البريد الإلكتروني بنجاح.',
         'update-success'      => 'تم تحديث البريد الإلكتروني بنجاح.',
         'mass-update-success' => 'تم تحديث البريد الإلكتروني بنجاح.',
         'delete-success'      => 'تم حذف البريد الإلكتروني بنجاح.',
         'delete-failed'       => 'لا يمكن حذف البريد الإلكتروني.',
+        'invalid-route'       => 'مسار غير صالح للبريد.',
+        'unauthorized'        => 'هذا الإجراء غير مصرح به.',
+
         'view'                => [
             'title'                      => 'الرسائل',
             'subject'                    => ':الموضوع',
@@ -1905,7 +1909,6 @@ return [
                 'job-title' => ':job_title في :organization',
             ],
             'stages' => [
-                'won-lost'       => 'ربحت/خسرت',
                 'won'            => 'ربحت',
                 'lost'           => 'خسرت',
                 'need-more-info' => 'تحتاج إلى مزيد من التفاصيل',
@@ -2027,8 +2030,10 @@ return [
     ],
     'dashboard' => [
         'index' => [
-            'title'   => 'لوحة القيادة',
-            'revenue' => [
+            'title'      => 'لوحة القيادة',
+            'start-date' => 'Start Date',
+            'end-date'   => 'End Date',
+            'revenue'    => [
                 'lost-revenue' => 'الإيرادات المفقودة',
                 'won-revenue'  => 'الإيرادات المكتسبة',
             ],

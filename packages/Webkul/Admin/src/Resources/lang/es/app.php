@@ -1673,11 +1673,15 @@ return [
                 'delete'        => 'Eliminar',
             ],
         ],
+
         'create-success'      => 'Correo enviado con éxito.',
         'update-success'      => 'Correo actualizado con éxito.',
         'mass-update-success' => 'Correos actualizados con éxito.',
         'delete-success'      => 'Correo eliminado con éxito.',
         'delete-failed'       => 'No se puede eliminar el correo.',
+        'invalid-route'       => 'Ruta inválida para el correo.',
+        'unauthorized'        => 'Esta acción no está autorizada.',
+
         'view'                => [
             'title'                      => 'Correos',
             'subject'                    => ':subject',
@@ -1905,7 +1909,6 @@ return [
                 'job-title' => ':job_title en :organization',
             ],
             'stages' => [
-                'won-lost'       => 'Ganado/Perdido',
                 'won'            => 'Ganado',
                 'lost'           => 'Perdido',
                 'need-more-info' => 'Necesita Más Información',
@@ -2027,8 +2030,10 @@ return [
     ],
     'dashboard' => [
         'index' => [
-            'title'   => 'Tablero',
-            'revenue' => [
+            'title'      => 'Tablero',
+            'start-date' => 'Start Date',
+            'end-date'   => 'End Date',
+            'revenue'    => [
                 'lost-revenue' => 'Ingresos Perdidos',
                 'won-revenue'  => 'Ingresos Ganados',
             ],
